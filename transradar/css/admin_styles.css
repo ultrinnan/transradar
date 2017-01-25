@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('../fonts/TrebuchetMS-Bold.woff');
+  font-style: bold;
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('../fonts/Trebuchet-BoldItalic.woff');
+  font-style: italic;
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('../fonts/TrebuchetMS-Italic.woff');
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('../fonts/TrebuchetMS.woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+	background: none;
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+.wrap h1 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.fixed_save {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+}
+
+.prototype {
+	display: none;
+}
+
+.main_item {
+	padding: 5px 20px;
+	position: relative;
+}
+.main_item .chapter_icon {
+	display: inline-block;
+}
+.chapter_icon_img {
+	width: 18px;
+	position: absolute;
+	top: 8px;
+}
+/*file inputs styles*/
+.file-input,
+.file-input-new {
+	display: inline-block;
+	width: 500px;
+	margin-left: 25px;
+}
+.form-control {
+	height: 22px;
+  padding: 0 5px;
+}
+/*file inputs styles*/
+.main_item .main_item_name {
+	border: 1px solid #206eb6;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 15px;
+	width: 600px;
+}
+.item_box .faq_input {
+  width: 500px;
+  margin-bottom: 5px;
+
+}
+.item_box .faq_textarea {
+  width: 500px;;
+
+}
+.toggler {
+	padding: 5px;
+}
+.fa {
+	font-size: 20px;
+	position: relative;
+	top: 2px;
+}
+.fa-caret-square-o-up,
+.fa-caret-square-o-down {
+	cursor: pointer;
+	color: #206eb6;
+}
+.fa-minus-circle {
+	color: #FA5555;
+	cursor: pointer;
+}
+.fa-caret-square-o-up {
+	display: none;
+}
+
+.add_section,
+.add_question {
+  margin: 5px 0;
+  padding: 1px 5px;
+}
+
+.items_box {
+	display: none;
+	padding: 5px 40px 0;
+}
+.item_box {
+	padding: 10px 0 0;
+}
+/*-------------------------------------- popup page start--------------------------------------------------------*/
+.form-group {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  width: 50%;
+  min-width: 600px;
+}
+
+.form-control {
+
+}
+
+input.form-control {
+	width: 400px;
+}
+
+textarea.form-control {
+	width: 500px;
+	margin-bottom: 10px;
+	resize:both;
+ overflow:auto;
+}
+
+/*-------------------------------------- popup page end--------------------------------------------------------*/
+
+.widget_list li {
+	list-style-type: circle;
+  margin: 0 20px;
+}
+.widget_list2 li {
+	list-style-type: circle;
+  margin: 0 40px;
+}
+.widget_list3 li {
+	list-style-type: circle;
+  margin: 0 60px;
+}
+
+.logo_ico {
+	display: inline-block;
+	width: 200px;
+}
+.logo_ico img {
+	max-width: 200px;
+}
+.trash_ico {
+	display: inline-block;
+}
